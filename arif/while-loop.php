@@ -8,12 +8,19 @@
 <body>
     <?php
 
-    $i =2;
-    while ($i <= 10) {
-        echo  "$i <br>";
-        $i++;
-    }
+    // $i =2;
+    // while ($i <= 10) {
+    //     echo  "$i <br>";
+    //     $i++;
+    // }
 
+
+    $a = rand(1,10);
+
+        do {
+            echo "the value is $a <br> "  ;
+            $a++;
+        } while ($a <= 10);
 ?>
 </body>
 </html>
