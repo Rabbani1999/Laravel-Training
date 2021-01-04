@@ -6,6 +6,7 @@
     <title>game</title>
 </head>
 <body>
+<!-- there is the php code -->
     <?php 
 
     $a = rand(1,10);
@@ -18,6 +19,7 @@
     else{
         echo "odd number";
     }
+
 
     ?>
 </body>
