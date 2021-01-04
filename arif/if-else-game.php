@@ -9,16 +9,28 @@
 <!-- there is the php code -->
     <?php 
 
-    $a = rand(1,10);
+  
 
-    echo $a ."<br>";
+    $i =1;
+    while ($i <= 10) {
+
+        $a = rand(1,10);
+        echo "<br>";
+
+        echo $a ."<br>";
+
+        if($a%2==0){
+            echo "even number";
+        }
+        else{
+            echo "odd number";
+        }
+
+        $i++;
+    }
+
     
-    if($a%2==0){
-        echo "even number";
-    }
-    else{
-        echo "odd number";
-    }
+ 
 
 
     ?>
